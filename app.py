@@ -671,6 +671,8 @@ def download_pdf(record_id):
         download_name="Smart_CareerPath_Report.pdf"
     )
 
+init_db()
+
 if __name__ == "__main__":
     init_db()
     app.run(debug=True)
